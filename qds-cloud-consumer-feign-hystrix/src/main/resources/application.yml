@@ -4,7 +4,6 @@ spring:
   application:
     name: qds-cloud-consumer-feign-hystrix
 
-# eureka ≈‰÷√
 eureka:
   client:
     serviceUrl:

@@ -4,7 +4,6 @@ spring:
   application:
     name: qds-cloud-consumer
 
-# eureka ≈‰÷√
 eureka:
   client:
     serviceUrl:
