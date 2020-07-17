@@ -1,0 +1,16 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: qds-gateway-zuul
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://xieyimin:123456@localhost:8761/eureka
+zuul:
+  ignoredServices: '*'
+  routes:
+    app-a:
+      path: /u/**
+      serviceId: qds-cloud-consumer-feign-hystrix
+
